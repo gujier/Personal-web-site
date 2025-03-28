@@ -1,0 +1,4 @@
+#app {
+  all: initial; /* 重置所有样式 */
+  display: block; /* 确保正常显示 */
+}
