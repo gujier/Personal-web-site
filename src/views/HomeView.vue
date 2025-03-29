@@ -175,11 +175,32 @@
 
 /* 响应式调整 */
 @media screen and (max-width: 768px) {
-    .right {
-        left: 0;
-        top: 100vh;
+    .left {
+        position: relative;
         width: 100%;
         height: auto;
+        padding-bottom: 20px;
+    }
+    .photo {
+        position: relative;
+        top: 20px;
+        margin: 20px auto;
+    }
+    .mes {
+        position: relative;
+        top: 20px;
+        left: 0;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .right {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
     }
     
     .showcase {

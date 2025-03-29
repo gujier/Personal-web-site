@@ -10,7 +10,7 @@ import { RouterLink } from 'vue-router'
         <nav>
           <div class="nav-links">
             <RouterLink to="/">首页</RouterLink>
-            <RouterLink to="/content1">内容1</RouterLink>
+            <RouterLink to="/content1">大学经历</RouterLink>
             <RouterLink to="/content2">内容2</RouterLink>
             <RouterLink to="/content3">内容3</RouterLink>
           </div>
